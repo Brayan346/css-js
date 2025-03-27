@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #00bcd4;
+    cursor: pointer;
+}
+
+/* Secciones */
+section {
+    padding: 2rem;
+}
+section img {
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+section img:hover {
+    transform: scale(1.1);
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+}
+img {
+    width: 100px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    table {
+        font-size: 0.8rem;
+    }
+    img {
+        width: 80px;
+    }
+}
